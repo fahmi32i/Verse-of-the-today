@@ -1,0 +1,454 @@
+
+div{
+  text-align: center;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #000;
+}
+
+.main-p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight:400 ;
+  color:#000 ;
+}
+
+/* #btnClick{
+  width: 250px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+}
+
+#btnClick:hover{
+  background-color:#008000;
+}    */
+
+/* From Uiverse.io by MuhammadHasann */ 
+.Btn {
+  position: relative;
+  padding: 13px 35px;
+  background: #f5ddb7;
+  font-size: 17px;
+  font-weight: 900;
+  color: #181818;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #18181869, inset 2px 2px 10px #ffffffb0;
+  transition: all .3s ease-in-out;
+  margin-top:190px;
+}
+
+.icon-1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0px;
+  height: auto;
+  transition: all .5s ease-in-out;
+  z-index: -1;
+}
+
+.icon-2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0px;
+  height: auto;
+  transition: all .5s ease-in-out;
+  z-index: -2;
+}
+
+.icon-3 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0px;
+  height: auto;
+  transition: all .5s ease-in-out;
+  z-index: -2;
+}
+
+.icon-4 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0px;
+  height: auto;
+  transition: all .5s ease-in-out;
+  z-index: -2;
+}
+
+.icon-5 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 0px;
+  height: auto;
+  transition: all .5s ease-in-out;
+  z-index: -2;
+}
+
+.Btn:hover {
+  padding: 13px 25px;
+  border-radius: 8px 8px 24px 24px;
+}
+
+.Btn:hover .icon-1 {
+  top: -250%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50px;
+  height: auto;
+  animation: inIcon1 1s ease .45s forwards;
+}
+
+@keyframes inIcon1 {
+  0% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+
+  25% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(5deg);
+  }
+
+  50% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(1deg);
+  }
+
+  65% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(3deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+}
+
+button:hover .icon-2 {
+  position: absolute;
+  top: -200%;
+  left: 90%;
+  transform: translate(-50%, 0);
+  width: 75px;
+  height: auto;
+  animation: inIcon2 1s ease .45s forwards;
+}
+
+@keyframes inIcon2 {
+  0% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+
+  35% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(10deg);
+  }
+
+  50% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(4deg);
+  }
+
+  80% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(5deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+}
+
+button:hover .icon-3 {
+  position: absolute;
+  top: -130%;
+  left: 20%;
+  transform: translate(-50%, 0);
+  width: 60px;
+  height: auto;
+  animation: inIcon3 1s ease .45s forwards;
+}
+
+@keyframes inIcon3 {
+  0% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+
+  35% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(-2deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+}
+
+button:hover .icon-4 {
+  position: absolute;
+  top: -300%;
+  left: 10%;
+  transform: translate(-50%, 0);
+  width: 85px;
+  height: auto;
+  animation: inIcon4 1s ease .45s forwards;
+}
+
+@keyframes inIcon4 {
+  0% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+
+  40% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(-3deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+}
+
+button:hover .icon-5 {
+  position: absolute;
+  top: -350%;
+  left: 90%;
+  transform: translate(-50%, 0);
+  width: 85px;
+  height: auto;
+  animation: inIcon5 1s ease .45s forwards;
+}
+
+@keyframes inIcon5 {
+  0% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+
+  35% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(-3deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+}
+
+.fil-leaf-1 {
+  fill: #7B9B3A
+}
+
+.fil-leaf-2 {
+  fill: #556729;
+  fill-rule: nonzero
+}
+
+.fil-leaf-3 {
+  fill: #556729
+}
+
+.fil-leaf-4 {
+  fill: #3C4819
+}
+
+.fil-leaf-5 {
+  fill: #3C4819
+}
+
+#quotesOutput{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight:400 ;
+  color:#ffffff ;
+}
+
+#outherOutput{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight:400 ;
+  color:#ffffff ;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff; /* لون نص واضح */
+    margin: 0;
+  }
+  
+
+
+  .container {
+    border: 8px solid #ffffff; /* إطار بلون أبيض لإبراز الحاوية */
+    border-radius: 10px;
+    background-color: #3b8d99; /* لون مميز للحاوية */
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* ظل خفيف لزيادة الأناقة */
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333333; /* لون نص داكن */
+    font-size: 2rem;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  #todoInput {
+    height: 30px;
+    width: 45vw;
+    border: 2px solid #b2c9f2; /* لون إطار متناسق */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  #addTask {
+    background-color: #2f80ed; /* لون مميز */
+    color: white;
+    width: 40px;
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: 0.3s; /* تأثير ناعم عند التمرير */
+  }
+  
+  #addTask:hover {
+    background-color: #56ccf2; /* لون أفتح عند التمرير */
+  }
+  
+  #todoList {
+    margin: 15px;
+  }
+  
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe3e6; /* لون هادئ للحدود */
+    padding: 10px;
+    width: 50vw;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* لون فاتح للخلفية */
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  }
+  
+  .todoItem span {
+    text-align: center;
+    margin-right: 10px;
+    width: 70%;
+    overflow: hidden;
+    color: #555555; /* لون النص */
+  }
+  
+  .todoItem.checked {
+    background-color: #a3e4db; /* خلفية مميزة عند الإكمال */
+  }
+  
+  input[type="checkbox"] {
+    accent-color: #2f80ed; /* لون جذاب للزر */
+  }
+  
+  button {
+    margin: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0; /* خلفية خفيفة عند التمرير */
+  }
+  
+  .fas {
+    color: #333333;
+  }
+  
+  .fa-plus {
+    color: white;
+  }
+  
+
+  footer {
+    background: linear-gradient(135deg,#153677,#4e085f);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .footer-content {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-icons {
+    text-align: center; /* لتوسيط الأيقونات */
+    margin-top: 20px;
+  }
+  
+  .footer-icons a {
+    margin: 0 15px; /* المسافة بين الأيقونات */
+    font-size: 30px; /* حجم الأيقونات */
+    color: #fff; /* اللون الأساسي للأيقونات */
+    transition: all 0.3s ease; /* تأثير الانتقال عند التفاعل مع الأيقونة */
+  }
+  
+  .footer-icons a:hover {
+    color: #1DA1F2; /* تغيير اللون عند التمرير (مثال: اللون الأزرق لتويتر) */
+    transform: scale(1.1); /* تكبير الأيقونة قليلاً عند المرور */
+  }
+  
+  .footer-icons a:focus {
+    outline: none; /* إزالة التحديد عند الضغط */
+  }
+  
